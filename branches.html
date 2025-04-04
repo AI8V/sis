@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="ar" dir="rtl">
+<html data-bs-theme="light" lang="ar" data-bss-forced-theme="light" dir="rtl">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>نظام إدارة التوزيع</title>
-    <link rel="icon" type="image/png" href="assets/img/logo.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Font%20Awesome%205%20Brands.css">
+    <link rel="stylesheet" href="assets/css/Font%20Awesome%205%20Free.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <i class="fas fa-boxes me-2"></i>
-                نظام إدارة التوزيع
-            </a>
-            <button data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="container"><a class="navbar-brand" href="index.html"><i class="fas fa-boxes me-2"></i> نظام إدارة التوزيع </a><button data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" data-bs-target="/" href="index.html">الرئيسية</a></li>
                     <li class="nav-item"><a class="nav-link active" href="branches.html">الفروع</a></li>
                     <li class="nav-item"><a class="nav-link" href="reports.html">التقارير</a></li>
+                    <li class="nav-item"><a class="nav-link" href="settings.html">الإعدادات</a></li>
                 </ul>
             </div>
         </div>
@@ -45,9 +40,9 @@
                     </div>
                     <div class="card-body">
                         <form id="branchForm">
-                            <div class="mb-3"><label class="form-label" for="branchName">اسم الفرع</label><input class="form-control form-control form-control" type="text" id="branchName" required=""></div>
-                            <div class="mb-3"><label class="form-label" for="branchLocation">العنوان</label><input class="form-control form-control form-control" type="text" id="branchLocation" required=""></div>
-                            <div class="mb-3"><label class="form-label" for="branchContact">رقم الهاتف</label><input class="form-control form-control form-control" type="tel" id="branchContact"></div>
+                            <div class="mb-3"><label class="form-label" for="branchName">اسم الفرع</label><input class="form-control form-control form-control form-control" type="text" id="branchName" required=""></div>
+                            <div class="mb-3"><label class="form-label" for="branchLocation">العنوان</label><input class="form-control form-control form-control form-control" type="text" id="branchLocation" required=""></div>
+                            <div class="mb-3"><label class="form-label" for="branchContact">رقم الهاتف</label><input class="form-control form-control form-control form-control" type="tel" id="branchContact"></div>
                             <div class="text-center"><button class="btn btn-primary" type="submit"><i class="fas fa-plus me-2"></i> إضافة الفرع </button></div>
                         </form>
                     </div>
@@ -87,9 +82,9 @@
                 </div>
                 <div class="modal-body">
                     <form id="editBranchForm"><input type="hidden" id="editBranchId">
-                        <div class="mb-3"><label class="form-label" for="editBranchName">اسم الفرع</label><input class="form-control form-control form-control" type="text" id="editBranchName" required=""></div>
-                        <div class="mb-3"><label class="form-label" for="editBranchLocation">العنوان</label><input class="form-control form-control form-control" type="text" id="editBranchLocation" required=""></div>
-                        <div class="mb-3"><label class="form-label" for="editBranchContact">رقم الهاتف</label><input class="form-control form-control form-control" type="tel" id="editBranchContact"></div>
+                        <div class="mb-3"><label class="form-label" for="editBranchName">اسم الفرع</label><input class="form-control form-control form-control form-control" type="text" id="editBranchName" required=""></div>
+                        <div class="mb-3"><label class="form-label" for="editBranchLocation">العنوان</label><input class="form-control form-control form-control form-control" type="text" id="editBranchLocation" required=""></div>
+                        <div class="mb-3"><label class="form-label" for="editBranchContact">رقم الهاتف</label><input class="form-control form-control form-control form-control" type="tel" id="editBranchContact"></div>
                     </form>
                 </div>
                 <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal" type="button">إلغاء</button><button class="btn btn-primary" id="saveBranchEdit" type="button">حفظ التغييرات</button></div>
@@ -98,7 +93,7 @@
     </div>
     <footer class="text-center text-white bg-dark py-3 mt-5">
         <div class="container">
-            <p class="mb-0">جميع الحقوق محفوظة © 2025 - مخبوزات الحاجة</p>
+            <p class="mb-0">جميع الحقوق محفوظة © 2025 - <strong>عمرو عبدالسلام</strong></p>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
