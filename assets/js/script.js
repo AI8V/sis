@@ -532,7 +532,7 @@ function generateReport(type, branchId, startDate, endDate) {
                     <div class="card bg-primary text-white">
                         <div class="card-body text-center">
                             <h3 class="card-title">إجمالي الكمية</h3>
-                            <p class="display-5">${totalQuantity} ${settings.productUnit}</p>
+                            <p class="display-5 text-white">${totalQuantity} ${settings.productUnit}</p>
                         </div>
                     </div>
                 </div>
